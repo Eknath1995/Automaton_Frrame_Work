@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test chome(failed)">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="Vtiger.practice.CreateOrgWithIndustryUsingGU">
+        <methods>
+          <include name="CreateOrgWithIndustryUsingGU"/>
+        </methods>
+      </class> <!-- Vtiger.practice.CreateOrgWithIndustryUsingGU -->
+    </classes>
+  </test> <!-- Test chome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
